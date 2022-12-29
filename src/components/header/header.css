@@ -1,0 +1,111 @@
+#headerBG {
+  position: absolute;
+  width: 100%;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  background: rgba(0, 0, 0, 0.2);
+}
+#Runo {
+  position: absolute;
+  top: 22px;
+  left: 70px;
+  width: 69px;
+  height: 22px;
+
+  font-style: normal;
+  color: #f8f9fa;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 15px;
+  align-items: center;
+}
+#homeborder {
+  border-bottom: 2px solid #d4a373;
+}
+#home {
+  position: absolute;
+  top: 19px;
+  left: 730px;
+}
+#about {
+  position: absolute;
+  top: 19px;
+  left: 800px;
+}
+#articles {
+  position: absolute;
+  top: 19px;
+
+  left: 870px;
+}
+#contactus {
+  position: absolute;
+  top: 19px;
+  left: 940px;
+}
+#borderotate {
+  position: absolute;
+  top: 39px;
+  left: 1025px;
+  width: 25px;
+  border: 0.1px solid #e5e5e5;
+  transform: rotate(90deg);
+}
+.nav-link {
+  margin-top: 6px;
+  color: #e5e5e5;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 550;
+  font-size: 13px;
+  line-height: 14px;
+}
+
+#bsfacebook {
+  position: absolute;
+  top: 30px;
+  left: 1060px;
+  color: #e5e5e5;
+}
+#bstwitter {
+  position: absolute;
+  top: 30px;
+  left: 1100px;
+  color: #e5e5e5;
+}
+#bsyoutube {
+  position: absolute;
+  top: 31px;
+  left: 1140px;
+  color: #e5e5e5;
+}
+#bspinterest {
+  position: absolute;
+  top: 31px;
+  left: 1180px;
+  color: #e5e5e5;
+}
+#FaBehanceSquare {
+  position: absolute;
+  top: 31px;
+  left: 1220px;
+  color: #e5e5e5;
+}
+#bssearch {
+  position: absolute;
+  top: 31px;
+  left: 1280px;
+  color: #e5e5e5;
+}
+#borderotate2 {
+  position: absolute;
+  top: 39px;
+  left: 1249px;
+  width: 25px;
+  border: 0.5px solid #e5e5e5;
+  transform: rotate(90deg);
+}
+.icons {
+  font-size: 15x;
+}

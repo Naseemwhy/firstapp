@@ -1,0 +1,270 @@
+#adventureBG {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  position: absolute;
+  top: 278px;
+  left: 65px;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+}
+#adventure {
+  width: 57px;
+  height: 12px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  color: #ffffff;
+
+  display: flex;
+  align-items: center;
+  text-align: right;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+/* 
+Richird Norton photorealistic rendering as real photos
+ */
+
+#Richird {
+  position: absolute;
+  width: 530px;
+  height: 92px;
+  font-family: lora;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 46px;
+  left: 65px;
+  top: 310px;
+  color: #ffffff;
+}
+/* 08.08.2021 */
+
+#date {
+  position: absolute;
+  top: 418px;
+  left: 70px;
+
+  font-family: "Lora";
+  font-style: normal;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  color: #e5e5e5;
+}
+/* Line  */
+
+#line {
+  position: absolute;
+  width: 30px;
+  height: 0px;
+  left: 131px;
+  top: 425px;
+  border: 0.5px solid #e5e5e5;
+}
+
+/*Progressively incentivize cooperative systems*/
+
+#paragraph {
+  position: absolute;
+  left: 175px;
+  top: 418px;
+
+  font-family: "Lora";
+  font-style: normal;
+  font-size: 12px;
+  line-height: 20px;
+  color: #e5e5e5;
+}
+
+/* popular Topics */
+
+.popularTopics {
+  position: relative;
+  margin-bottom: 200px;
+}
+#popularHeading {
+  position: absolute;
+  top: 150px;
+  left: 70px;
+
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 46px;
+  /* identical to box height */
+
+  color: #495057;
+}
+
+/*Topics Name*/
+
+.Adventure,
+.Travel,
+.Fashion,
+.Technology,
+.Branding,
+.Viewall {
+  color: #495057;
+
+  font-family: "Lora";
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 25px;
+  text-decoration: none;
+}
+.All {
+  position: absolute;
+  font-family: "Lora";
+  font-style: normal;
+  left: 70px;
+  top: 223px;
+  line-height: 25px;
+
+  color: #d4a373;
+  font-size: 13px;
+  text-decoration: none;
+}
+.Adventure {
+  position: absolute;
+  left: 107px;
+  top: 223px;
+}
+.Travel {
+  position: absolute;
+  left: 180px;
+  top: 223px;
+}
+.Fashion {
+  position: absolute;
+  left: 237px;
+  top: 223px;
+}
+.Technology {
+  position: absolute;
+  left: 300px;
+  top: 223px;
+}
+.Branding {
+  position: absolute;
+  left: 380px;
+  top: 223px;
+}
+.Viewall {
+  position: absolute;
+  left: 1230px;
+  top: 223px;
+}
+
+.blogcards {
+  position: relative;
+}
+
+#visit {
+  position: relative;
+}
+
+#heding {
+  position: absolute;
+  left: 40px;
+  top: 130px;
+}
+#imgvisit {
+  height: 350px;
+  border-radius: 5px;
+}
+#fash {
+  position: absolute;
+  top: 15px;
+  left: 320px;
+}
+
+#banner {
+  position: relative;
+}
+#fashionBG {
+  position: absolute;
+  top: 180px;
+  left: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+}
+#fashion {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+#banner2Richird {
+  position: absolute;
+  top: 230px;
+  left: 460px;
+
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  text-align: center;
+
+  color: #ffffff;
+}
+#paragraph2 {
+  position: absolute;
+  top: 340px;
+  left: 510px;
+  font-family: "Lora";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+
+  text-align: center;
+
+  color: #e5e5e5;
+}
+
+#line2 {
+  position: absolute;
+  width: 33px;
+  height: 0px;
+  left: 667px;
+  top: 400px;
+  border: 0.1px solid #e5e5e5;
+}
+#date2 {
+  position: absolute;
+  top: 430px;
+  left: 650px;
+
+  color: #ffffff;
+}

@@ -1,0 +1,133 @@
+#contactPublisher {
+  text-align: start;
+  margin-top: 10px;
+}
+#contactPublisher a {
+  text-align: start;
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  margin: 15px;
+  padding: 12px;
+
+  color: #e5e5e5;
+}
+#explorate {
+  text-align: start;
+  margin-top: 10px;
+}
+#explorate a {
+  text-decoration: none;
+
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 25px;
+  margin: 15px;
+  color: #e5e5e5;
+}
+
+#headquarter {
+  text-align: start;
+  margin-top: 10px;
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 25px;
+  margin: 15px;
+  color: #e5e5e5;
+}
+
+#connections {
+  top: 70px;
+}
+#year {
+  position: absolute;
+  top: 31px;
+  left: 70px;
+}
+#line3 {
+  position: absolute;
+  top: 40px;
+  left: 97px;
+  width: 14px;
+  font-weight: 700;
+
+  border: 0.1px solid #e5e5e5;
+  transform: rotate(90deg);
+}
+#publisherStudio {
+  position: absolute;
+  top: 31px;
+  left: 112px;
+}
+#subscribe {
+  position: absolute;
+  top: 31px;
+  left: 1200px;
+  text-decoration: none;
+  color: #e5e5e5;
+}
+
+#copyright {
+  position: relative;
+  background: #343a40;
+  color: #e5e5e5;
+  height: 80px;
+  width: 100%;
+
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #e5e5e5;
+}
+#connections2 {
+  position: relative;
+}
+#bsfacebook2 {
+  position: absolute;
+  top: -50px;
+  left: 10px;
+  color: #e5e5e5;
+}
+#bstwitter2 {
+  position: absolute;
+  top: -50px;
+  left: 40px;
+  color: #e5e5e5;
+}
+#bsyoutube2 {
+  position: absolute;
+  top: -50px;
+  left: 70px;
+  color: #e5e5e5;
+}
+#bspinterest2 {
+  position: absolute;
+  top: -50px;
+  left: 100px;
+  color: #e5e5e5;
+}
+#FaBehanceSquare2 {
+  position: absolute;
+  top: -50px;
+  left: 130px;
+  color: #e5e5e5;
+}
+#bssearch2 {
+  position: absolute;
+  top: -50px;
+  left: 160px;
+  color: #e5e5e5;
+}
