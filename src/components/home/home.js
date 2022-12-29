@@ -113,14 +113,6 @@ function Home() {
             sound functionalities. Credibly productivate seamless data with
             flexible schemas."
         />
-        <Cards
-          Image="../assests/images/Blog Image(5).png"
-          date="08-08-2021"
-          title="Richird Norton photorealistic rendering as real photos"
-          description="progressively incentivize cooperative systems through technically
-            sound functionalities. Credibly productivate seamless data with
-            flexible schemas."
-        />
 
         <div className="home-page mt-5">
           <div className="banner-page ">
