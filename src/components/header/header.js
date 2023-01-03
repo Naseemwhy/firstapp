@@ -14,11 +14,11 @@ function Header() {
     <>
       <div className="" id="headerBG">
         <nav className="navbar navbar-expand-sm" id="navv">
-          <div className="container-fluid ">
+          <div className="container-fluid nav-link">
             <a className=" navbar-brand " id="Runo" href="#">
               Runo
             </a>
-            <div className="allitems">
+            <div className="allitems ">
               <ul className="navbar-nav  " id="navitems">
                 <li className="nav-item" id="home">
                   <a className="nav-link" href="">

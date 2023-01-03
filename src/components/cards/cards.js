@@ -3,14 +3,12 @@ import "./cards.css";
 
 function Cards(props) {
   return (
-    <div className="card card-component mt-5">
+    <div className="card card-component mt-5 bg-light">
       <div className="">
-        <img src={props.Image} className="naseem" />
-        <h6>{props.date}</h6>
-        <h4>
-          <b>{props.title}</b>
-        </h4>
-        <p>{props.description}</p>
+        <img src={props.Image} className="image" />
+        <h6 className="mt-3 date">{props.date}</h6>
+        <h4 className="title">{props.title}</h4>
+        <p className="description">{props.description}</p>
       </div>
     </div>
   );

@@ -198,33 +198,6 @@ Richird Norton photorealistic rendering as real photos
 #banner {
   position: relative;
 }
-#fashionBG {
-  position: absolute;
-  top: 180px;
-  left: 650px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 5px 10px;
-  gap: 10px;
-  background: rgba(255, 255, 255, 0.15);
-  border-radius: 8px;
-}
-#fashion {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 10px;
-  line-height: 12px;
-  /* identical to box height */
-
-  display: flex;
-  align-items: center;
-  text-align: center;
-
-  color: #ffffff;
-}
 #banner2Richird {
   position: absolute;
   top: 230px;
