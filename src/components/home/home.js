@@ -3,6 +3,7 @@ import Header from "../header/header";
 import Footer from "../footer/footer";
 import "./home.css";
 import Cards from "../cards/cards";
+import { IMAGES } from "../../constants/images";
 
 function Home() {
   return (
@@ -14,7 +15,7 @@ function Home() {
               <Header />
               <img
                 id="asss"
-                src="../assests/images/banner.png"
+                src={IMAGES.banner}
                 alt=""
                 width="100%"
                 height="600px"
@@ -97,29 +98,78 @@ function Home() {
             </div>
           </div>
         </div>
-        <Cards
-          Image="../assests/images/Blog Image(5).png"
-          date="08-08-2021"
-          title="Richird Norton photorealistic rendering as real photos"
-          description="progressively incentivize cooperative systems through technically
+        <div className="d-flex flex-wrap m-5 p-2 cardsff">
+          <Cards
+            Image={IMAGES.blog1}
+            date="08-08-2021"
+            title="Richird Norton photorealistic rendering as real photos"
+            description="progressively incentivize cooperative systems through technically
             sound functionalities. Credibly productivate seamless data with
             flexible schemas."
-        />
-        <Cards
-          Image="../assests/images/Blog Image(5).png"
-          date="08-08-2021"
-          title="Richird Norton photorealistic rendering as real photos"
-          description="progressively incentivize cooperative systems through technically
+          />
+          <Cards
+            Image={IMAGES.blog2}
+            date="08-08-2021"
+            title="Richird Norton photorealistic rendering as real photos"
+            description="progressively incentivize cooperative systems through technically
             sound functionalities. Credibly productivate seamless data with
             flexible schemas."
-        />
-
+          />
+          <Cards
+            Image={IMAGES.blog3}
+            date="08-08-2021"
+            title="Richird Norton photorealistic rendering as real photos"
+            description="progressively incentivize cooperative systems through technically
+            sound functionalities. Credibly productivate seamless data with
+            flexible schemas."
+          />
+          <Cards
+            Image={IMAGES.blog4}
+            date="08-08-2021"
+            title="Richird Norton photorealistic rendering as real photos"
+            description="progressively incentivize cooperative systems through technically
+            sound functionalities. Credibly productivate seamless data with
+            flexible schemas."
+          />
+          <Cards
+            Image={IMAGES.blog5}
+            date="08-08-2021"
+            title="Richird Norton photorealistic rendering as real photos"
+            description="progressively incentivize cooperative systems through technically
+            sound functionalities. Credibly productivate seamless data with
+            flexible schemas."
+          />
+          <Cards
+            Image={IMAGES.blog6}
+            date="08-08-2021"
+            title="Richird Norton photorealistic rendering as real photos"
+            description="progressively incentivize cooperative systems through technically
+            sound functionalities. Credibly productivate seamless data with
+            flexible schemas."
+          />
+          <Cards
+            Image={IMAGES.blog7}
+            date="08-08-2021"
+            title="Richird Norton photorealistic rendering as real photos"
+            description="progressively incentivize cooperative systems through technically
+            sound functionalities. Credibly productivate seamless data with
+            flexible schemas."
+          />
+          <Cards
+            Image={IMAGES.blog8}
+            date="08-08-2021"
+            title="Richird Norton photorealistic rendering as real photos"
+            description="progressively incentivize cooperative systems through technically
+            sound functionalities. Credibly productivate seamless data with
+            flexible schemas."
+          />
+        </div>
         <div className="home-page mt-5">
           <div className="banner-page ">
             <div className=" mt-0">
               <div className="" id="banner">
                 <img
-                  src="../assests/images/image.png"
+                  src={IMAGES.banner1}
                   alt=""
                   width="100%"
                   height="600px"
@@ -156,7 +206,7 @@ function Home() {
           <div className="card-group p-5">
             <div className="card m-2  " id="visit">
               <img
-                src="../assests/images/Blog image (7).png"
+                src={IMAGES.blog9}
                 className="card-img-top "
                 alt="..."
                 id="imgvisit"
@@ -182,7 +232,7 @@ function Home() {
             </div>
             <div className="card m-2 ">
               <img
-                src="../assests/images/Blog image (8).png"
+                src={IMAGES.blog10}
                 className="card-img-top"
                 alt="..."
                 id="imgvisit"
@@ -208,9 +258,9 @@ function Home() {
                 </p>
               </div>
             </div>
-            <div className="card m-2 rounded-pill">
+            <div className="card m-2 ">
               <img
-                src="../assests/images/Blog image (9).png"
+                src={IMAGES.blog11}
                 className="card-img-top "
                 alt="..."
                 id="imgvisit"
