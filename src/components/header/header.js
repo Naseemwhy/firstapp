@@ -12,48 +12,60 @@ import {
 function Header() {
   return (
     <>
-      <div className="" id="headerBG">
-        <nav className="navbar navbar-expand-sm" id="navv">
-          <div className="container-fluid nav-link">
-            <a className=" navbar-brand " id="Runo" href="#">
-              Runo
-            </a>
-            <div className="allitems ">
-              <ul className="navbar-nav  " id="navitems">
-                <li className="nav-item" id="home">
-                  <a className="nav-link" href="">
-                    Home
-                    <p className="mt-1" id="homeborder"></p>
-                  </a>
-                </li>
-                <li className="nav-item" id="about">
-                  <a className="nav-link" href="#">
-                    About
-                  </a>
-                </li>
-                <li className="nav-item" id="articles">
-                  <a className="nav-link " href="#">
-                    Articles
-                  </a>
-                </li>
-                <li className="nav-item" id="contactus">
-                  <a className="nav-link" href="#">
-                    contact Us
-                  </a>
-                </li>
-                <p id="borderotate"></p>
+      <div className="header-container">
+        <h2 className="logo">Runo</h2>
 
-                <BsFacebook className="icons" id="bsfacebook" />
-                <BsTwitter className="icons" id="bstwitter" />
-                <BsYoutube className="icons" id="bsyoutube" />
-                <BsPinterest className="icons" id="bspinterest" />
-                <FaBehanceSquare className="icons" id="FaBehanceSquare" />
-                <p id="borderotate2"></p>
+        <nav>
+          <ul>
+            <li className="">
+              <a className="" href="">
+                Home
+                <p className="mt-1" id="homeborder"></p>
+              </a>
+            </li>
+            <li className="">
+              <a className="" href="#">
+                About
+              </a>
+            </li>
+            <li className="">
+              <a className=" " href="#">
+                Articles
+              </a>
+            </li>
+            <li className="">
+              <a className="" href="#">
+                contact Us
+              </a>
+            </li>
+            <li>
+              <p id="borderotate"></p>
+            </li>
 
-                <BsSearch className="iconss" id="bssearch" />
-              </ul>
-            </div>
-          </div>
+            <li>
+              <BsFacebook className="icons" id="bsfacebook" />
+            </li>
+            <li>
+              <BsTwitter className="icons" id="bstwitter" />
+            </li>
+
+            <li>
+              <BsYoutube className="icons" id="bsyoutube" />
+            </li>
+            <li>
+              <BsPinterest className="icons" id="bspinterest" />
+            </li>
+            <li>
+              <FaBehanceSquare className="icons" id="FaBehanceSquare" />
+            </li>
+            <li>
+              <p id="borderotate2"></p>
+            </li>
+
+            <li>
+              <BsSearch className="iconss" id="bssearch" />
+            </li>
+          </ul>
         </nav>
       </div>
     </>

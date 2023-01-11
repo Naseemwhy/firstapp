@@ -102,7 +102,8 @@ function Home() {
           <Cards
             Image={IMAGES.blog1}
             date="08-08-2021"
-            title="Richird Norton photorealistic rendering as real photos"
+            title="Dream destinations to visit this
+year in Paris"
             description="progressively incentivize cooperative systems through technically
             sound functionalities. Credibly productivate seamless data with
             flexible schemas."
@@ -110,7 +111,8 @@ function Home() {
           <Cards
             Image={IMAGES.blog2}
             date="08-08-2021"
-            title="Richird Norton photorealistic rendering as real photos"
+            title="Breathtaking first-person photos
+around Europe"
             description="progressively incentivize cooperative systems through technically
             sound functionalities. Credibly productivate seamless data with
             flexible schemas."
@@ -118,7 +120,8 @@ function Home() {
           <Cards
             Image={IMAGES.blog3}
             date="08-08-2021"
-            title="Richird Norton photorealistic rendering as real photos"
+            title="What collectors need to know about
+authenticity"
             description="progressively incentivize cooperative systems through technically
             sound functionalities. Credibly productivate seamless data with
             flexible schemas."
@@ -126,7 +129,8 @@ function Home() {
           <Cards
             Image={IMAGES.blog4}
             date="08-08-2021"
-            title="Richird Norton photorealistic rendering as real photos"
+            title="Instagram artists with great
+photography skills"
             description="progressively incentivize cooperative systems through technically
             sound functionalities. Credibly productivate seamless data with
             flexible schemas."
@@ -134,7 +138,8 @@ function Home() {
           <Cards
             Image={IMAGES.blog5}
             date="08-08-2021"
-            title="Richird Norton photorealistic rendering as real photos"
+            title="Thins to know before visiting
+Cave in Germany"
             description="progressively incentivize cooperative systems through technically
             sound functionalities. Credibly productivate seamless data with
             flexible schemas."
@@ -142,7 +147,8 @@ function Home() {
           <Cards
             Image={IMAGES.blog6}
             date="08-08-2021"
-            title="Richird Norton photorealistic rendering as real photos"
+            title="Nina Smith vibrant work collab
+with Nike Dunk"
             description="progressively incentivize cooperative systems through technically
             sound functionalities. Credibly productivate seamless data with
             flexible schemas."
@@ -158,7 +164,8 @@ function Home() {
           <Cards
             Image={IMAGES.blog8}
             date="08-08-2021"
-            title="Richird Norton photorealistic rendering as real photos"
+            title="25 quality collectors toys inspired
+by famous films"
             description="progressively incentivize cooperative systems through technically
             sound functionalities. Credibly productivate seamless data with
             flexible schemas."
